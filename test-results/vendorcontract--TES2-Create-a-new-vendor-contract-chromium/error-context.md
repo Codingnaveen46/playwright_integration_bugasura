@@ -1,0 +1,180 @@
+# Page snapshot
+
+```yaml
+- img "Logo"
+- link "Vendor":
+  - /url: /fsm/vendor/vendors
+- link "Vendor Contact":
+  - /url: /fsm/vendor/vendorcontact
+- link "Vendor Insurance":
+  - /url: /fsm/vendor/vendor-insurance
+- link "Vendor Quotes":
+  - /url: /fsm/vendor/vendor-quotes
+- link "Vendor Contract":
+  - /url: /fsm/vendor/vendor-contract
+- img
+- text: All Territories
+- img
+- img
+- text: NS
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- text: Vendor Contracts General Information *Contract Name
+- textbox "Input your text here": test
+- text: Description
+- textbox "Type your description here": test
+- text: "*Type"
+- textbox "Planned"
+- img
+- text: "*Vendor"
+- textbox "naveen_vendor"
+- img
+- img
+- text: "*Contract Start Date"
+- img
+- textbox "MM/DD/YYYY": 06/01/2025
+- text: Contract End Date
+- img
+- textbox "MM/DD/YYYY": 06/30/2025
+- text: "*Contractual Sites"
+- textbox "Select one or more options"
+- img
+- img
+- text: Client Contract
+- textbox "Select an option"
+- img
+- img
+- text: Address Street
+- textbox "Enter Street"
+- text: City/District
+- textbox "Enter City"
+- text: State/Province/County
+- textbox "Enter State/Province/County"
+- text: Zip Code
+- textbox "Enter Zip Code"
+- text: Country
+- textbox "Select Country"
+- img
+- text: Scope of Work Service
+- button "New Service":
+  - img
+  - text: New Service
+- button "Cancel"
+- button "Submit"
+- list:
+  - img
+  - text: "Zimmermann: Tampa"
+  - img
+  - text: "Zimmermann: Orlando"
+  - img
+  - text: "Zimmerman: Fontainebleau"
+  - img
+  - text: "Versace: Vineland"
+  - img
+  - text: "Versace: Orlando Mall at Millenia"
+  - img
+  - text: "Versace: Las Vegas Forum shops at Caesar's"
+  - img
+  - text: "Versace: International Plaza"
+  - img
+  - text: "Versace: Crystals at City Center"
+  - img
+  - text: "Versace: Boston"
+  - img
+  - text: "Van Cleef & Arpels: Boston"
+  - img
+  - text: "Valentino: Vineland"
+  - img
+  - text: "VRAI: CHI-Oak St"
+  - img
+  - text: "VRAI: Bos-Newbury"
+  - img
+  - text: "Salvatore Ferragamo #13: Boston: Copley Place"
+  - img
+  - text: "Rimowa: Boston"
+  - img
+  - text: "Rails: Newbury"
+  - img
+  - text: "Pomellato: Beverly Hills"
+  - img
+  - text: "OMEGA: Tampa"
+  - img
+  - text: "OMEGA: Beverly Center"
+  - img
+  - text: Moncler:Wynn US17
+  - img
+  - text: "Moncler: Rodeo Dr US06"
+  - img
+  - text: "Moncler: Orlando (TEMP STORE)"
+  - img
+  - text: "Moncler: Caesars Forum Shops"
+  - img
+  - text: "Moncler: Boston US15"
+  - img
+  - text: "Max Mara : Boston"
+  - img
+  - text: "Marc Jacobs: Millenia - US1068"
+  - img
+  - text: Marc Jacobs - Tampa - US2032
+  - img
+  - text: Marc Jacobs - Orlando I Drive - US2026
+  - img
+  - text: Marc Jacobs - Orlando - US2005
+  - img
+  - text: Marc Jacobs - Chicago - US2014
+  - img
+  - text: "Maison Margiela: Forum Shops Caesar's"
+  - img
+  - text: "MCM: Tampa"
+  - img
+  - text: "MCM: Orlando"
+  - img
+  - text: "Longchamp: Boston"
+  - img
+  - text: "Longchamp : Orlando"
+  - img
+  - text: "Lanvin: Rodeo Drive"
+  - img
+  - text: "John Varvatos #9012: Boston"
+  - img
+  - text: "Harry Winston: Las Vegas City Center"
+  - img
+  - text: "Harry Winston: Bellagio"
+  - img
+  - text: "Golden Goose: Beverly Hills"
+  - img
+  - text: Ganni:Newbury
+  - img
+  - text: "Ferrari: Vineland"
+  - img
+  - text: "Fendi: #1018 Boston Copley"
+  - img
+  - text: "Fendi: #1016 Beverly Hills Rodeo"
+  - img
+  - text: "Dolce & Gabbana: Orlando Vineland Premium Outlet"
+  - img
+  - text: "Dolce & Gabbana: Beverly Center Temp Space"
+  - img
+  - text: "Diesel #31: Boston"
+  - img
+  - text: "Chanel: Wynn"
+  - img
+  - text: "Chanel: Saks Boston"
+  - img
+  - text: "Chanel: Neiman Marcus Chicago"
+- img
+- text: You can select maximum of 50 entries only!
+```

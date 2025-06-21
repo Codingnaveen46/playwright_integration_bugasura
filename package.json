@@ -1,0 +1,20 @@
+{
+  "name": "final_test_automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test vendorcontract.spec.ts --project=chromium ; bugasura UPLOAD_RESULTS ./reports/junit-report.xml --api_key=d9925801b61bb8ce242ab7998223accbe3bbae19 --team_id=83422 --project_id=112220 --testrun_id=126772 --server=facilio",
+    "test:chromium": "npx playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1",
+    "playwright": "^1.53.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

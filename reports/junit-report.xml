@@ -1,117 +1,26 @@
-<testsuites id="" name="" tests="4" failures="3" skipped="0" errors="0" time="82.712086">
-<testsuite name="vendorcontract.spec.ts" timestamp="2025-06-21T04:12:26.172Z" hostname="chromium" tests="4" failures="3" skipped="0" time="80.152" errors="0">
-<testcase name="#TES1 Login with valid credentials" classname="vendorcontract.spec.ts" time="8.854">
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="41.793295">
+<testsuite name="vendorcontract.spec.ts" timestamp="2025-06-24T11:20:37.466Z" hostname="chromium" tests="2" failures="1" skipped="0" time="39.098" errors="0">
+<testcase name="#TES1, #TES2 Login with valid credentials" classname="vendorcontract.spec.ts" time="8.126">
 </testcase>
-<testcase name="#TES2 Create a new vendor contract" classname="vendorcontract.spec.ts" time="30.165">
-<failure message="vendorcontract.spec.ts:48:5 #TES2 Create a new vendor contract" type="FAILURE">
-<![CDATA[  [chromium] › vendorcontract.spec.ts:48:5 › #TES2 Create a new vendor contract ────────────────────
-
-    Test timeout of 30000ms exceeded.
-
-    Error: locator.click: Test timeout of 30000ms exceeded.
-    Call log:
-      - waiting for locator('div').filter({ hasText: /^#209 Rag & Bone: Melrose$/ }).nth(2)
-
-
-      89 |   // Location
-      90 |   await page.getByRole('textbox', { name: 'Select one or more options' }).click();
-    > 91 |   await page.locator('div').filter({ hasText: /^#209 Rag & Bone: Melrose$/ }).nth(2).click();
-         |                                                                                      ^
-      92 |
-      93 |   // Step 5: Submit the form
-      94 |   await page.locator('.dsm-section-container > div:nth-child(9)').click();
-        at /Users/apple/Desktop/final_test_automation/tests/vendorcontract.spec.ts:91:86
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results/vendorcontract--TES2-Create-a-new-vendor-contract-chromium/test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    test-results/vendorcontract--TES2-Create-a-new-vendor-contract-chromium/video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ../test-results/vendorcontract--TES2-Create-a-new-vendor-contract-chromium/error-context.md
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|../test-results/vendorcontract--TES2-Create-a-new-vendor-contract-chromium/test-failed-1.png]]
-
-[[ATTACHMENT|../test-results/vendorcontract--TES2-Create-a-new-vendor-contract-chromium/video.webm]]
-
-[[ATTACHMENT|../test-results/vendorcontract--TES2-Create-a-new-vendor-contract-chromium/error-context.md]]
-]]>
-</system-out>
-</testcase>
-<testcase name="#TES3 Add service to vendor contract" classname="vendorcontract.spec.ts" time="30.972">
-<failure message="vendorcontract.spec.ts:102:5 #TES3 Add service to vendor contract" type="FAILURE">
-<![CDATA[  [chromium] › vendorcontract.spec.ts:102:5 › #TES3 Add service to vendor contract ─────────────────
-
-    Test timeout of 30000ms exceeded.
-
-    Error: locator.click: Test timeout of 30000ms exceeded.
-    Call log:
-      - waiting for getByText('May Contract')
-
-
-      113 |
-      114 |   // Step 1: Open existing/new contract
-    > 115 |   await page.getByText('May Contract').click();
-          |                                        ^
-      116 |
-      117 |   // Step 2: Click 'New Service'
-      118 |   await page.getByRole('button', { name: 'New Service' }).click();
-        at /Users/apple/Desktop/final_test_automation/tests/vendorcontract.spec.ts:115:40
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results/vendorcontract--TES3-Add-service-to-vendor-contract-chromium/test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    test-results/vendorcontract--TES3-Add-service-to-vendor-contract-chromium/video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ../test-results/vendorcontract--TES3-Add-service-to-vendor-contract-chromium/error-context.md
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|../test-results/vendorcontract--TES3-Add-service-to-vendor-contract-chromium/test-failed-1.png]]
-
-[[ATTACHMENT|../test-results/vendorcontract--TES3-Add-service-to-vendor-contract-chromium/video.webm]]
-
-[[ATTACHMENT|../test-results/vendorcontract--TES3-Add-service-to-vendor-contract-chromium/error-context.md]]
-]]>
-</system-out>
-</testcase>
-<testcase name="#TES4 Unpublish a contract" classname="vendorcontract.spec.ts" time="10.161">
+<testcase name="#TES4 Unpublish a contract" classname="vendorcontract.spec.ts" time="30.972">
 <failure message="vendorcontract.spec.ts:154:5 #TES4 Unpublish a contract" type="FAILURE">
 <![CDATA[  [chromium] › vendorcontract.spec.ts:154:5 › #TES4 Unpublish a contract ───────────────────────────
 
-    Error: Timed out 5000ms waiting for expect(locator).toHaveURL(expected)
+    Test timeout of 30000ms exceeded.
 
-    Locator: locator(':root')
-    Expected string: "https://app.facilio.com/fsm/home/dispatch"
-    Received string: "https://app.facilio.com/fsm"
+    Error: locator.click: Test timeout of 30000ms exceeded.
     Call log:
-      - Expect "toHaveURL" with timeout 5000ms
-      - waiting for locator(':root')
-        4 × locator resolved to <html>…</html>
-          - unexpected value "https://app.facilio.com/identity/login/password/fb462e0099c54e358981933e6bb0af46?state=eyJyZWRpcmVjdCI6IlwvZnNtIn0"
-        - waiting for" https://app.facilio.com/fsm" navigation to finish...
-        - navigated to "https://app.facilio.com/fsm"
-        4 × locator resolved to <html lang="en">…</html>
-          - unexpected value "https://app.facilio.com/fsm"
+      - waiting for locator('text=Un Publish')
 
 
-      159 |   await page.getByRole('textbox', { name: 'Enter password' }).fill(testData.login.password);
-      160 |   await page.getByRole('button', { name: 'Sign in' }).click();
-    > 161 |   await expect(page).toHaveURL('https://app.facilio.com/fsm/home/dispatch');
-          |                      ^
-      162 |
-      163 |   await page.locator('div:nth-child(6) > .css-60yl7d > .flex').click();
-      164 |   await page.locator('#f-popover-9').getByRole('link', { name: 'Vendor Contract' }).click();
-        at /Users/apple/Desktop/final_test_automation/tests/vendorcontract.spec.ts:161:22
+      169 |
+      170 |   // Step 3: Select 'Un Publish'
+    > 171 |   await page.locator('text=Un Publish').click();
+          |                                         ^
+      172 |
+      173 |   // Acceptance Criteria: Contract should show as unpublished
+      174 |   // Note: Add verification to check unpublished status
+        at /Users/apple/Desktop/final_test_automation/tests/vendorcontract.spec.ts:171:41
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
     test-results/vendorcontract--TES4-Unpublish-a-contract-chromium/test-failed-1.png
@@ -120,6 +29,8 @@
     attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
     test-results/vendorcontract--TES4-Unpublish-a-contract-chromium/video.webm
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/vendorcontract--TES4-Unpublish-a-contract-chromium/error-context.md
 ]]>
 </failure>
 <system-out>
@@ -127,6 +38,8 @@
 [[ATTACHMENT|../test-results/vendorcontract--TES4-Unpublish-a-contract-chromium/test-failed-1.png]]
 
 [[ATTACHMENT|../test-results/vendorcontract--TES4-Unpublish-a-contract-chromium/video.webm]]
+
+[[ATTACHMENT|../test-results/vendorcontract--TES4-Unpublish-a-contract-chromium/error-context.md]]
 ]]>
 </system-out>
 </testcase>

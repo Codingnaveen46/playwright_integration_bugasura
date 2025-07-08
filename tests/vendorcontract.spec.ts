@@ -150,6 +150,8 @@ test('#TES1 Login with valid credentials', async ({ page }) => {
 //   // Note: Add verification to check if service appears in the contract
 // });
 
+//this is the test comment
+
 // Test Case 4: Unpublish a contract (MEDIUM Priority)
 test('#TES Unpublish a contract', async ({ page }) => {
   // Prerequisites: Login and navigate to published contract
